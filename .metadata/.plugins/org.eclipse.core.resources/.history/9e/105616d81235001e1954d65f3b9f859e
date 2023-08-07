@@ -1,0 +1,5 @@
+username=Evansadmin22
+password=admin1
+
+
+laptops=//a[text()="Laptops"]

@@ -1,1 +1,9 @@
+loginBtn=login2
+username=loginusername
+password=loginpassword
+loginConfirmBtn=//button[text()="Log in"]
+loginCloseBtn=(//button[@type='button'][normalize-space()='Close'])[3]
+loginCancelBtn=(//span[@aria-hidden='true'][normalize-space()='×'])[3]
+
+//Laptop Section
 laptops=//a[text()="Laptops"]

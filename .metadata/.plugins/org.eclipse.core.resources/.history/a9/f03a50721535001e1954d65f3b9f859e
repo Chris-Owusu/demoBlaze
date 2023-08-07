@@ -1,0 +1,6 @@
+loginBtn=
+username=loginusername
+password=loginpassword
+loginConfirmBtn=//button[text()="Log in"]
+loginCancelmBtn=(//button[@type='button'][normalize-space()='Close'])[3]
+laptops=//a[text()="Laptops"]
