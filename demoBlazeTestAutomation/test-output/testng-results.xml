@@ -1,49 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-07T12:45:17 GMT" name="Default suite" finished-at="2023-08-07T12:45:35 GMT" duration-ms="18050">
+  <suite started-at="2023-08-07T15:31:57 GMT" name="Default suite" finished-at="2023-08-07T15:32:18 GMT" duration-ms="21163">
     <groups>
     </groups>
-    <test started-at="2023-08-07T12:45:17 GMT" name="Default test" finished-at="2023-08-07T12:45:35 GMT" duration-ms="18050">
-      <class name="testcases.Login">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Login@5c3b6c6e]" started-at="2023-08-07T12:45:17 GMT" name="setUp" finished-at="2023-08-07T12:45:22 GMT" duration-ms="5272" status="PASS">
+    <test started-at="2023-08-07T15:31:57 GMT" name="Default test" finished-at="2023-08-07T15:32:18 GMT" duration-ms="21163">
+      <class name="testcases.Laptops">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Laptops@7c711375]" started-at="2023-08-07T15:31:57 GMT" name="setUp" finished-at="2023-08-07T15:32:04 GMT" duration-ms="6780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginCancelTest()[pri:0, instance:testcases.Login@5c3b6c6e]" started-at="2023-08-07T12:45:22 GMT" name="LoginCancelTest" finished-at="2023-08-07T12:45:24 GMT" duration-ms="1716" status="PASS">
+        <test-method signature="laptopSection()[pri:0, instance:testcases.Laptops@7c711375]" started-at="2023-08-07T15:32:04 GMT" name="laptopSection" finished-at="2023-08-07T15:32:04 GMT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laptopSection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Laptops@7c711375]" started-at="2023-08-07T15:32:04 GMT" name="tearDown" finished-at="2023-08-07T15:32:04 GMT" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Laptops@7c711375]" started-at="2023-08-07T15:32:04 GMT" name="setUp" finished-at="2023-08-07T15:32:08 GMT" duration-ms="3399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginCancelTest()[pri:0, instance:testcases.Laptops@7c711375]" started-at="2023-08-07T15:32:08 GMT" name="LoginCancelTest" finished-at="2023-08-07T15:32:09 GMT" duration-ms="1140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginCancelTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Login@5c3b6c6e]" started-at="2023-08-07T12:45:24 GMT" name="tearDown" finished-at="2023-08-07T12:45:24 GMT" duration-ms="184" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Laptops@7c711375]" started-at="2023-08-07T15:32:09 GMT" name="tearDown" finished-at="2023-08-07T15:32:09 GMT" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Login@5c3b6c6e]" started-at="2023-08-07T12:45:24 GMT" name="setUp" finished-at="2023-08-07T12:45:27 GMT" duration-ms="3204" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Laptops@7c711375]" started-at="2023-08-07T15:32:09 GMT" name="setUp" finished-at="2023-08-07T15:32:13 GMT" duration-ms="3652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="negativetiveLoginTest()[pri:0, instance:testcases.Login@5c3b6c6e]" started-at="2023-08-07T12:45:27 GMT" name="negativetiveLoginTest" finished-at="2023-08-07T12:45:29 GMT" duration-ms="2035" status="PASS">
+        <test-method signature="negativetiveLoginTest()[pri:0, instance:testcases.Laptops@7c711375]" started-at="2023-08-07T15:32:13 GMT" name="negativetiveLoginTest" finished-at="2023-08-07T15:32:14 GMT" duration-ms="1089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativetiveLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Login@5c3b6c6e]" started-at="2023-08-07T12:45:29 GMT" name="tearDown" finished-at="2023-08-07T12:45:29 GMT" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Laptops@7c711375]" started-at="2023-08-07T15:32:14 GMT" name="tearDown" finished-at="2023-08-07T15:32:14 GMT" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Login@5c3b6c6e]" started-at="2023-08-07T12:45:29 GMT" name="setUp" finished-at="2023-08-07T12:45:33 GMT" duration-ms="3452" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.Laptops@7c711375]" started-at="2023-08-07T15:32:14 GMT" name="setUp" finished-at="2023-08-07T15:32:17 GMT" duration-ms="3447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="positiveLoginTest()[pri:0, instance:testcases.Login@5c3b6c6e]" started-at="2023-08-07T12:45:33 GMT" name="positiveLoginTest" finished-at="2023-08-07T12:45:34 GMT" duration-ms="1676" status="PASS">
+        <test-method signature="positiveLoginTest()[pri:0, instance:testcases.Laptops@7c711375]" started-at="2023-08-07T15:32:17 GMT" name="positiveLoginTest" finished-at="2023-08-07T15:32:18 GMT" duration-ms="1015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Login@5c3b6c6e]" started-at="2023-08-07T12:45:34 GMT" name="tearDown" finished-at="2023-08-07T12:45:35 GMT" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Laptops@7c711375]" started-at="2023-08-07T15:32:18 GMT" name="tearDown" finished-at="2023-08-07T15:32:18 GMT" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.Login -->
+      </class> <!-- testcases.Laptops -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
